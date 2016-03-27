@@ -1,0 +1,57 @@
+
+
+.sheet-character-sheet,
+.sheet-expand
+{
+    display: none;
+    padding: 3px;
+}
+
+.sheet-expand:checked ~ .sheet-show
+{
+    display: block;
+    background-color: transparent;
+    margin: 1px 0px 0px -2px;
+}
+
+.sheet-tab
+{
+    display: inline-block;
+    text-align: center;
+    margin: -2px;
+    padding: 2px;
+    width: 64px;
+    height: 24px;
+    background-color: gray;
+    border-top-left-radius: 1em 3em;
+    border-top-right-radius: 1em 3em;
+    border: solid thin gray;
+    border-bottom: none;
+}
+
+.sheet-expand:checked ~ .sheet-tab
+{
+    background-color: transparent;
+}
+
+label
+{
+    display: inline;
+}
+
+label,
+label div
+{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'kirsty';
+    src: url(Kirsty.ttf);
+}
+
+@Font-face{
+    font-family:kirsty;
+    src: url("Kirsty Font/Kirsty.ttf")
+}
